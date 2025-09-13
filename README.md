@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Invitaciones Digitales Ágil
 
 Proyecto React + Vite + TailwindCSS para invitaciones digitales personalizadas.
@@ -30,3 +31,6 @@ npm run dev
 ---
 
 ¿Dudas? Contacta: WhatsApp 7226540066
+=======
+# invitaciones-digitales-agil
+>>>>>>> 401683fe07c12360efb65fee465920ed6f4e1eb8
