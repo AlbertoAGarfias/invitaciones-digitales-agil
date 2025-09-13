@@ -60,7 +60,7 @@ export default function TabSection({ tabs, tabIndex, setTabIndex }) {
         <div className="mt-6 flex justify-center fade-in">
           <Tooltip label="Solicita tu invitación por WhatsApp">
             <a
-              href={`https://wa.me/52226540066?text=Hola,%20quiero%20una%20invitación%20digital%20de%20${tabs[tabIndex].nombre}`}
+              href={`https://wa.me/527226540066?text=Hola,%20quiero%20una%20invitación%20digital%20de%20${tabs[tabIndex].nombre}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-anim px-5 py-2 bg-green-500 text-white rounded-full font-bold fade-in"
