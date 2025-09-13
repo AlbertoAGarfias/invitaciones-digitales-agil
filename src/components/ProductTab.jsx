@@ -10,7 +10,7 @@ export default function ProductTab({ nombre, color, imagenes, descripcion }) {
 
   const handleWhatsApp = () => {
     const mensaje = encodeURIComponent(`Hola, me interesa la invitación digital de ${nombre}.\nDescripción: ${descripcion}`)
-    window.open(`https://wa.me/52226540066?text=${mensaje}`, '_blank')
+    window.open(`https://wa.me/527226540066?text=${mensaje}`, '_blank')
     setNotif({ type: "success", msg: "Redirigiendo a WhatsApp..." })
     setTimeout(() => setNotif(null), 2000)
   }
