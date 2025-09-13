@@ -17,7 +17,7 @@ export default function ContactForm() {
     const texto = encodeURIComponent(
       `Hola, soy ${nombre}.\nMe interesa una invitación para: ${evento}\nMensaje: ${mensaje}`
     )
-    window.open(`https://wa.me/52226540066?text=${texto}`, "_blank")
+    window.open(`https://wa.me/527226540066?text=${texto}`, "_blank")
     setNotif({ type: "success", msg: "Redirigiendo a WhatsApp..." })
     setTimeout(() => setNotif(null), 2000)
   }
